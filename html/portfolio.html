@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <!-- CSS STYLE SHEET -->
+  <link rel="stylesheet" type="text/css" href="../styles/styles.css">
+  <!-- JAVASCRIPT -->
+  <script type="text/javascript" src="../scripts/scripts.js"></script>
+  <!-- Dont Actually Remember What This Is For... -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- Icon Pack -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+  <!-- DEV ICONS-->
+  <link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
+  <!-- BootStrap Integration -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
+</head>
+
+<body>
+
+  <!--====== Hero ======-->
+ <section id="hero">
+  <div class="container">
+    <nav>
+      <div class="navi" id="navi">
+        <a href="#hero" class="nav-active">Info</a>
+        <a href="#portfolio"> Portfolio</a>
+        <a href="#about">About</a>
+        <a href="#contact">Contact</a>
+      </div>
+    </nav>
+
+    <div id="container-nav" class="container-nav">
+      <div id="logo" class="menuUp">
+        <div id="navToggle">
+          <div class="bar1"></div>
+          <div class="bar2"></div>
+          <div class="bar3"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="dp">
+    <div class="deadpool">
+      <img src="http://digitalspyuk.cdnds.net/17/02/320x320/square-1484222978-deadpool.jpg"></img>
+    </div>
+    <div class="hi">
+      <h4> Hi, my name is Aidan. I'm a self taught developer from York, UK.
+    </div>
+  </div>
+
+</section>
+
+ <!--====== Portfolio =======-->
+
+  <section id="portfolio">
+    <div class="container">
+      <div class="jumbotron">
+        <h4>Here are some Projects I have worked on</h4>
+        <div class="card-container">
+          <div class="row">
+            <div class="card">
+              <img class="card-img-top" src="http://fanfest.com/wp-content/uploads/2016/12/111-front.jpg" alt="Image not found">
+              <div class="card-body">
+                <h5> Test Card Title </h5>
+                <p>random text just for this test card</p>
+              </div>
+            </div>
+            <div class="card">
+              <img class="card-img-top" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRPckSNl3MY6qe77hFwDSKB1J3Eywq6dTuQhilG-xFoEAxMGQZUZg" alt="Image not found">
+              <div class="card-body">
+                <h5> Test Card Title </h5>
+                <p>random text just for this test card</p>
+              </div>
+            </div>
+            <div class="card">
+              <img class="card-img-top" src="http://fanfest.com/wp-content/uploads/2016/12/111-front.jpg" alt="Image not found">
+              <div class="card-body">
+                <h5> Test Card Title </h5>
+                <p>random text just for this test card</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+  </section>
+
+  <!--====== About =======-->
+
+  <section id="about">
+    <div class="container">
+      <h4>Here is a little about me</h4>
+      <div class="info">
+        <p> Hi there, I'm Aidan. A developer born in Oxford and living in York, England. I first found my passion for Coding at a fairly young age. As I grew older I took a different route through education (focusing on entrepreneurial subjects like IT, Business
+          and Law) all the while maintaining my connection to Coding through extra curricular activities like hackathons and code communities. <br><br> I graduated from The University Of York in 2017 with a degree in Law, I wrote my dissertation on the
+          development of peer to peer networks and how data privacy laws are infringing on their creation and use. (The course was taught in a problem based learning manner. This helped reinforce my love for problem solving and building on my analytical
+          mindset)
+          <br><br> While at university I was a part of the Coding society as well as the Computer Science society and Game development society.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!--====== Skills =======-->
+
+   <section id="skills">
+    <div class="container">
+      <h4>Here are the languages and technologies I have experience in</h4>
+      <ul class="slides">
+        <li class="lang">
+          <i class="devicon-html5-plain-wordmark colored"></i>
+        </li>
+        <li class="lang">
+          <i class="devicon-css3-plain-wordmark colored"></i>
+        </li>
+        <li class="lang">
+          <i class="devicon-javascript-plain colored"></i>
+        </li>
+        <li class="lang">
+          <i class="devicon-bootstrap-plain-wordmark colored"></i>
+        </li>
+        <li class="lang">
+          <i class="devicon-java-plain-wordmark colored"></i>
+        </li>
+      </ul>
+    </div>
+  </section>
+
+  <!--=======     http://kenwheeler.github.io/slick/   https://bootsnipp.com/snippets/zDQkr
+
+https://codepen.io/mephysto/pen/ZYVKRY  =========-->
+
+  <!--====== Contact =======-->
+
+  <section id="contact">
+    <div class="container">
+      <h4>Here are some ways to get in touch with me</h4>
+      <div class="icons">
+        <div class="email">
+          <i class="fas fa-envelope-square" onClick="email(this)"></i>
+        </div>
+        <div class="linkd">
+          <i class="fab fa-linkedin"></i>
+        </div>
+        <div class="instagram">
+          <i class="fab fa-instagram"></i>
+        </div>
+        <div class="git">
+          <i class="fab fa-github-square"></i>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!--====== Footer ======-->
+
+  <section id="footer">
+    <div class="container">
+    </div>
+  </section>
+     <script type="text/javascript" src="../scripts/scripts.js"></script>
+    </body>
+  
+  </html>

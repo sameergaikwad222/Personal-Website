@@ -1,0 +1,188 @@
+/* /*https://codepen.io/eduardoboucas/pen/rayExg */
+/*https://www.w3schools.com/howto*/
+#hero {
+   background: linear-gradient(rgba(0, 150, 255), rgba(0, 0, 0, 0));
+  height: 400px;
+  width: 100%;
+  display: flex;
+  -webkit-box-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  align-items: center;
+  
+}
+
+nav {
+  position: fixed;
+  border-style: solid;
+  border-width: 1px;
+  width: 386px;
+  height: 50px;
+  top: 5px;
+  left: 60px;
+  overflow: hidden;
+  z-index: 1;
+}
+
+.navi {
+  position: absolute;
+  left: -400px;
+  top: 11px;
+  transition: 600ms all ease-in-out;
+}
+
+a {
+  font-size: 20px;
+  font-weight: 600;
+  padding: 0.3rem 1rem;
+  border-radius: 5px;
+}
+
+.slide {
+  position: absolute;
+  left: 0px;
+  top: 10px;
+  transition: 700ms all ease-in-out;
+}
+a:hover,
+.nav-active {
+  color: black;
+  background-color: grey;
+  text-decoration: none;
+  transition: 0.8s;
+}
+#logo {
+  position: fixed;
+  float: left;
+  text-align: ;
+  top: 0;
+  left: 0;
+  padding: 20px;
+  cursor: pointer;
+}
+.bar1,
+.bar2,
+.bar3 {
+  width: 35px;
+  height: 5px;
+  background-color: #333;
+  margin: 0px 0px;
+  margin-bottom: 6px;
+  transition: 0.7s;
+}
+.menu .bar1 {
+  -webkit-transform: rotate(-45deg) translate(-9px, 6px);
+  transform: rotate(-45deg) translate(-9px, 6px);
+}
+.menu .bar2 {
+  opacity: 0;
+}
+.menu .bar3 {
+  -webkit-transform: rotate(45deg) translate(-8px, -8px);
+  transform: rotate(45deg) translate(-8px, -8px);
+}
+
+.dp {
+ position: absolute;
+ border: 1px solid;
+ max-width: 500px;
+  top: 100px;
+  
+  
+}
+.deadpool img {
+  display: block;
+  margin: auto;
+  border-radius: 50%;
+  max-width: 100%;
+  max-height: 175px;
+}
+
+.hi {
+  padding: 20px;
+  text-align: center;
+}
+
+
+
+
+
+.text-content {
+  text-align: center;
+  padding: 50px 300px;
+  overflow: auto;
+}
+.text-content img {
+  border-radius: 50%;
+  width: auto;
+  height: 250px;
+}
+#portfolio {
+  background-color: white;
+  text-align: center;
+  padding: 50px;
+}
+.jumbotron {
+  max-width: 900px;
+  margin: 0 auto;
+}
+.card-img-top {
+  min-height: 200px;
+  max-height: 200px;
+}
+.card {
+  max-width: 225px;
+  margin: 0 auto;
+}
+#about {
+  text-align: center;
+  padding-top: 50px;
+}
+.info {
+  font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
+#skills {
+  text-align: center;
+  padding: 50px;
+}
+.lang{
+  display: inline-block;
+  font-size: 75px;
+  padding:15px 40px;
+  
+}
+
+#contact {
+  text-align: center;
+  padding: 50px;
+  border-style: solid;
+  border-width: 1px;
+  max-width: 700px;
+  margin: 0 auto;
+}
+.container .icons i {
+  cursor: pointer;
+  border-style: solid;
+  border-width: 1px;
+}
+.email {
+  font-size: 4em;
+  margin-right: 300px;
+  position: relative;
+}
+.linkd {
+  font-size: 4em;
+  margin-left: 300px;
+}
+.instagram {
+  font-size: 4em;
+  margin-right: 300px;
+}
+.git {
+  font-size: 4em;
+  margin-left: 300px;
+}
+#footer {
+  background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 150, 255));
+  padding: 100px;
+}
